@@ -1,0 +1,193 @@
+body{
+    background-image: url(images/background.gif);
+    color:#221811;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header{
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url(images/javajamlogo.jpg);
+    background-repeat:no-repeat;
+    display: block;
+}
+
+h1{
+    padding-left: 220px;
+    font-size: 3em;
+    padding-right: 2em;
+    padding-top: 30px;
+    line-height: 200%;
+}
+
+h2{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+p{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+nav{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0px;
+    float: left;
+    width: 200px;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: #FEF6C2;
+}
+
+nav a:visited{
+    color: #D2B48C;
+}
+
+nav a:hover{
+    color: #CC9933;
+}
+
+footer{
+    padding-bottom: 10px;
+    border: 2px solid;
+    border-color: #221811;
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
+
+h4{
+    background-color:#D2B48C;
+    font-size: 1.2em;
+    padding-bottom: .25em;
+    padding-left: 3em;
+    padding-right: 2em;
+    text-transform:uppercase;
+    border-bottom: 2px solid #231814;
+    padding-bottom: 0px;
+    clear:left
+}
+
+h3{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main{
+    margin-left: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 2em;
+    background-color: #FEF6C2;
+    display: block;
+}   
+
+#wrapper{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow:3px 3px 3px;
+}
+
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#heroroad{
+    background-image: url(images/heroroad.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heromugs{
+    background-image: url(images/heromugs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar{
+    background-image: url(images/heroguitar.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+nav ul{
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+
+.floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+table{
+    width: 90%;
+    border-spacing: 0px;
+    background-color: #FFFFCC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-of-type(odd){
+    background-color: #D2B48E;
+}
+
+th , td{
+    padding: 10px;
+}
+
+#herojob{
+    background-image: url(images/herojobs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+form{
+    padding: 2em;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input , textarea{
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit{
+    margin-left: 9.5em;
+}
